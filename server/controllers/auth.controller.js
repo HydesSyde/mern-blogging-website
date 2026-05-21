@@ -1,4 +1,4 @@
-import nanoid from "nanoid";
+import { nanoid } from "nanoid";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { eq } from "drizzle-orm";
